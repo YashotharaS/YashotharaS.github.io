@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myfoto.jpg" alt="Yashothara Shanmugarasa" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h2 class="name" title="Yashothara">Yashothara</h2>
+          <h2 class="name" title="Shanmugarasa">Shanmugarasa</h2>
+
+          <p class="title">Postdoctral Fellow</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yashoshan@gmail.com" class="contact-link">yashoshan@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+61413147621" class="contact-link">+61 41 314 7621</a>
+            </div>
+
+          </li>
+
+<!--          <li class="contact-item">-->
+
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="calendar-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--&lt;!&ndash;            <div class="contact-info">&ndash;&gt;-->
+<!--&lt;!&ndash;              <p class="contact-title">Birthday</p>&ndash;&gt;-->
+
+<!--&lt;!&ndash;              <time datetime="1982-06-23">June 23, 1982</time>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+
+<!--          </li>-->
+
+<!--          <li class="contact-item">-->
+
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="location-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--            <div class="contact-info">-->
+<!--              <p class="contact-title">Location</p>-->
+
+<!--              <address>Sacramento, California, USA</address>-->
+<!--            </div>-->
+
+<!--          </li>-->
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yashothara/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com.au/citations?user=qMKJS7UAAAAJ&hl=en" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://yashothara.blogspot.com/" class="social-link">
+              <ion-icon name="create-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           As a passionate and driven Post-doctoral fellow in CSIRO's Data61 (PhD in Computer Science and Engineering, University of New South Wales (UNSW), Australia), I am eager to pursue my industrial research and development aspirations. My goal is to create socially beneficial products that positively impact many lives. My research expertise includes User-Centric Privacy, Large Language Models, Data Privacy, Quantification of Privacy, Artificial Intelligence, Differential Privacy, Natural Language Processing, and Statistical Analysis. I am committed to exploring and adopting new technologies and continuously updating my knowledge to stay at the forefront of the field.</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/privacy.webp
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">User-centric Privacy</h4>
+
+                <p class="service-item-text">
+
+                User-friendly privacy design, Personalized privacy recommendations, and User-centric privacy solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Responsible AI</h4>
+
+                <p class="service-item-text">
+                  System explainability and data sharing, Minimizing private data collection, and Privacy by design principles.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cyber.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CyberSecurity</h4>
+
+                <p class="service-item-text">
+                 Data security, Minimizing cyber attacks, and Differential privacy
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/AI.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence (AI)</h4>
+
+                <p class="service-item-text">
+                  Leveraging AI for privacy solutions, Machine learning application, Generative AI privacy, and Natural language processing
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+<!--        <section class="testimonials">-->
+
+<!--          <h3 class="h3 testimonials-title">Testimonials</h3>-->
+
+<!--          <ul class="testimonials-list has-scrollbar">-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+<!--                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                  lot of experience-->
+<!--                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                  consectetur adipiscing-->
+<!--                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+<!--        <section class="clients">-->
+
+<!--          <h3 class="h3 clients-title">Clients</h3>-->
+
+<!--          <ul class="clients-list has-scrollbar">-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-1-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-2-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-3-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-4-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-5-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--            <li class="clients-item">-->
+<!--              <a href="#">-->
+<!--                <img src="./assets/images/logo-6-color.png" alt="client logo">-->
+<!--              </a>-->
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Doctor of Philosophy (PhD), Computer Science and Engineering, University of New South Wales (UNSW), Sydney, Australia</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Supervisors: Associate Prof. Helen Paik, Prof. Salil Kanhere and Prof. Liming Zhu
+              </p>
+              <p class="timeline-text">
+              Thesis: Towards User-Assisted Privacy Management in a User-centric Environment
+              </p>
+              <p class="timeline-text">
+
+              <b>Highlights:</b> Academic: 5 publications in top-tier conferences and journals
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master of Science degree by Research in Computer Science and Engineering, University of Moratuwa, Sri Lanka </h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+              <b>Highlights:</b> Academic: 4 publications in top-tier conferences and journals
+              </p>
+
+              <p class="timeline-text">
+              Academic: Overall GPA of 4.2/4.2 (First Class)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Honours Degree of Bachelor of Science in Information Technology, University of Moratuwa, Sri Lanka</h4>
+
+              <span>2011 — 2015</span>
+
+              <p class="timeline-text">
+              Academic: Overall GPA of 3.8/4.2 (First Class), 4 Dean lists
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CERC Postdoctoral Fellow, CSIRO Data61, Australia</h4>
+              <span><a href="https://research.csiro.au/isp/">Privacy Technology Research Group</a></span>
+
+              <span>Feb 2024 — Present</span>
+              <span><b>Responsibilities</b></span>
+              <ul>
+              <li class="timeline-text1">Produce research publications and contribute to conferences, seminar papers and publications</li>
+              <li class="timeline-text1">Develop software solutions to support and advance projects</li>
+              <li class="timeline-text1">Consider the privacy and data leakage in the different stages of the system</li>
+              <li class="timeline-text1">Manage version control processes, ensuring code integrity, tracking changes, and facilitating collaboration through GitHub</li>
+              <li class="timeline-text1">Attend at meetings associated with the organisational unit</li>
+              <li class="timeline-text1">Adhere to Scrum methodologies in software development</li>
+              <li class="timeline-text1">Utilize project management tools such as Jira and Confluence to manage team tasks and track project progress</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Casual Academics, University of New South Wales (UNSW), Sydney, Australia</h4>
+              <span><a href="https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering">School of Computer Science and Engineering</a></span>
+
+              <span>2020 — 2023</span>
+
+              <span><b>Responsibilities</b></span>
+              <ul>
+              <li class="timeline-text1">Deliver tutorials and coding sessions on specific subjects, ensuring content is engaging and informative</li>
+              <li class="timeline-text1">Assist in designing course materials, assignments, and assessments aligned with learning outcomes</li>
+              <li class="timeline-text1">Provide academic support to students through office hours, feedback on assignments, and guidance on course-related queries</li>
+              <li class="timeline-text1">Evaluate student performance through grading assignments, exams, and providing constructive feedback</li>
+              <li class="timeline-text1">Follow university policies regarding academic integrity, diversity, and inclusion in teaching practices</li>
+              <li class="timeline-text1">Build assignment marking tools to ease the marking</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Software Engineer, Sri Lanka</h4>
+              <span><a href="https://www.atlinkcom.com/">Atlink Communications</a></span>
+              <span>Jun 2019 — Jan 2020</span>
+              <span><b>Responsibilities</b></span>
+              <ul>
+              <li class="timeline-text1">Full stack software development using Java, XML, XSL, Angular 5, HTML 5</li>
+              <li class="timeline-text1">Work on XML-based data management software</li>
+              <li class="timeline-text1">Manage version control processes, ensuring code integrity, tracking changes, and facilitating collaboration through Git</li>
+              <li class="timeline-text1">Manage and coordinate software release processes, ensuring smooth deployment and delivery of new features and updates</li>
+              <li class="timeline-text1">Working on writing solr config files and methods for searching</li>
+              <li class="timeline-text1">Adhere to Scrum methodologies in software development</li>
+                <li class="timeline-text1">Experience in teamwork and collaboration across teams</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Big data Researcher, Sri Lanka</h4>
+              <span><a href="https://lirneasia.net/">LIRNEasia</a></span>
+              <span>Jun 2018 — May 2019</span>
+              <span><b>Responsibilities</b></span>
+              <ul>
+              <li class="timeline-text1">Full stack software development using Python, Java, Scala, R, Clusters, Qgis</li>
+              <li class="timeline-text1">Work on Hate speech Detection in Facebook data, Call Details Records (CDR) analysis</li>
+              <li class="timeline-text1">Analyzing the state of natural language research processing in Sinhala and Tamil, implementing, and evaluating various topic modelling and machine translation methods</li>
+              <li class="timeline-text1">Creating synthetic call data records from authentic data, as an exploration into data privacy</li>
+                <li class="timeline-text1">Manage and coordinate software release processes, ensuring smooth deployment and delivery of new features and updates</li>
+              <li class="timeline-text1">Attend at meetings associated with the organisational unit</li>
+
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant, Sri Lanka</h4>
+              <span><a href="http://www.cse.mrt.ac.lk/">University of Moratuwa</a></span>
+              <span>Feb 2017 — Jun 2018</span>
+              <span><b>Responsibilities</b></span>
+              <ul>
+              <li class="timeline-text1">Full stack software development using Python, Java, Moses, C++</li>
+              <li class="timeline-text1">Work on Tamil-Sinhala Machine Translation system</li>
+              <li class="timeline-text1">Analyzing the state of natural language research processing in Sinhala and Tamil</li>
+              <li class="timeline-text1">Organizing workshops with the official language team to educate users about the machine translation tool</li>
+                <li class="timeline-text1">Gathering feedback from actual users to enhance the tool’s functionality</li>
+              <li class="timeline-text1">Coordinating a natural language symposium at the university</li>
+                <li class="timeline-text1">Tutoring and lecturing students in program courses, as well as mentoring undergraduate students</li>
+
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer, Sri Lanka</h4>
+              <span><a href="https://wso2.com/">University of Moratuwa</a></span>
+              <span>Jan 2016 — Jan 2017</span>
+              <span><b>Responsibilities</b></span>
+              <ul>
+              <li class="timeline-text1">Full stack software development using Java, XML, WSO2 ESB, Siddhi, WSO2 CEP, Web services, REST API, JMS, Apache Synapse, Axis2, Integration Tests and TestNG</li>
+              <li class="timeline-text1">Performance analysis and improvement </li>
+              <li class="timeline-text1">Code review, product documentation, Dev-ops, and blogs on products</li>
+              <li class="timeline-text1">Adhere to Scrum methodologies in software development</li>
+                <li class="timeline-text1">Utilize project management tools such as Jira and Confluence to manage team tasks and track project progress</li>
+              <li class="timeline-text1">Manage and coordinate software release processes, ensuring smooth deployment and delivery of new features and updates</li>
+                <li class="timeline-text1">Manage version control processes, ensuring code integrity, tracking changes, and facilitating collaboration through Bitbucket, SVN and Git</li>
+
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+         <section class="skill">
+
+
+          <h3 class="h3 skills-title">Honours and Awards</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Best Paper Award</h5>
+                <data value="80">Local Differential Privacy for Smart Meter Data Sharing with Energy Disaggregation, DCOSS-2024</data>
+              </div>
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 80%;"></div>-->
+<!--              </div>-->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Best Paper Award</h5>
+                <data value="70">Local Differential Privacy for Top-k Appliance Smart Meter Data Sharing", CSCRC Research Symposium 2023</data>
+              </div>
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 70%;"></div>-->
+<!--              </div>-->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sri Lanka e-swabbimani national award 2018</h5>
+                <data value="90">A prestigious national honour recognising the contributions to digital technologies for societal benefit.</data>
+              </div>
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 90%;"></div>-->
+<!--              </div>-->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Dean’s Award</h5>
+                <data value="90">Faculty of Information Technology, University of Moratuwa, 2012, 2013, 2014, 2015</data>
+              </div>
+
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PhD scholarships</h5>
+                <data value="90">UNSW competitive Scientia scholarship and CSCRC scholarships</data>
+              </div>
+
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Student Travel Grant</h5>
+                <data value="90">IASNLP summer school 2017, IIIT- Hyderabad, India and Google summer school 2021</data>
+              </div>
+
+
+            </li>
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">WordPress</h5>-->
+<!--                <data value="50">50%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 50%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+          </ul>
+
+        </section>
+
+        <section class="skill">
+
+
+          <h3 class="h3 skills-title">Technical Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="80">Python, Java, R, Scala, C++, C, .NET technologies, Angular, HTML 5</data>
+              </div>
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 80%;"></div>-->
+<!--              </div>-->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases</h5>
+                <data value="70">PostgreSQL, MS SQL, MySQL, mongoDB</data>
+              </div>
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 70%;"></div>-->
+<!--              </div>-->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Operating Systems</h5>
+                <data value="90">Ubuntu, Windows, Linux, MacOS</data>
+              </div>
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 90%;"></div>-->
+<!--              </div>-->
+
+            </li>
+
+<!--            <li class="skills-item">-->
+
+<!--              <div class="title-wrapper">-->
+<!--                <h5 class="h5">WordPress</h5>-->
+<!--                <data value="50">50%</data>-->
+<!--              </div>-->
+
+<!--              <div class="skill-progress-bg">-->
+<!--                <div class="skill-progress-fill" style="width: 50%;"></div>-->
+<!--              </div>-->
+
+<!--            </li>-->
+
+          </ul>
+
+        </section>
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">2024</h4>
+
+              <ul>
+              <li class="timeline-text1"><b>Y. Shanmugarasa</b>, Ming Ding, Chamikara Mahawagaarachchige, Thierry Rakotoarivelo ""SoK: The Privacy Paradox of Large Language Models:Advancements, Privacy Risks, and Mitigation" (Submitted to a conference)</li>
+              <li class="timeline-text1"><b>Y. Shanmugarasa}</b>, MAP Chamikara,  H. -y. Paik, S. S. Kanhere and L. Zhu ""Local Differential Privacy for Smart Meter Data Sharing with Energy Disaggregation", DCOSS-2024 <a class="timeline-text1" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10621569">[pdf] </a></li>
+              <li class="timeline-text1"><b>Y. Shanmugarasa</b>, H. -y. Paik, S. S. Kanhere, M. Windl, S. S. Feger, and L. Zhu ""From Energy Consumption Data to User Profiling: Quantifying Privacy Exposure in Smart Homes" (Submitted to a journal)</li>
+              </ul>
+            </li>
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">2023</h4>
+
+              <ul>
+              <li class="timeline-text1"><b>Y. Shanmugarasa</b>, Ming Ding, Chamikara Mahawagaarachchige, Thierry Rakotoarivelo ""SoK: The Privacy Paradox of Large Language Models:Advancements, Privacy Risks, and Mitigation" (Submitted to a conference)</li>
+              <li class="timeline-text1"><b>Y. Shanmugarasa}</b>, MAP Chamikara,  H. -y. Paik, S. S. Kanhere and L. Zhu ""Local Differential Privacy for Smart Meter Data Sharing with Energy Disaggregation", DCOSS-2024 <a class="timeline-text1" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10621569">[pdf] </a></li>
+              <li class="timeline-text1"><b>Y. Shanmugarasa</b>, H. -y. Paik, S. S. Kanhere, M. Windl, S. S. Feger, and L. Zhu ""From Energy Consumption Data to User Profiling: Quantifying Privacy Exposure in Smart Homes" (Submitted to a journal)</li>
+              </ul>
+            </li>
+
+
+          </ol>
+
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://yashothara.blogspot.com/2022/06/data-privacy-what-is-mean-to-me-and-you.html?m=1">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pivacy.jpg" alt="Data Privacy? What is mean to me and you?" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Privacy</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-06-21">Jun 21, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Data Privacy? What is mean to me and you?</h3>
+
+                  <p class="blog-text">
+                    Introduction and thoughts of data privacy
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://yashothara.blogspot.com/2018/12/linguistic-divergence-of-sinhala-and.html?m=1">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Linguistic Divergence of Sinhala and Tamil Languages in Machine translation</h3>
+
+                  <p class="blog-text">
+                    machine translation and linguistic divergence between morphologically rich languages
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
